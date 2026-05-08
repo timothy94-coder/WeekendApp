@@ -485,27 +485,7 @@ const filteredWomen = useMemo(() => {
   /* -----------------------------
      HOME PAGE
   ------------------------------*/
-  return (
-    <div className="min-h-screen bg-black text-white overflow-hidden">
-      <section className="relative px-4 py-16">
-        <div className="absolute inset-0 bg-gradient-to-b from-pink-900/30 via-black to-black" />
-
-        <div className="relative max-w-7xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-pink-500 via-rose-500 to-fuchsia-500 bg-clip-text text-transparent">
-            WEEKENDAPP
-          </h1>
-
-          <p className="text-xl md:text-2xl text-zinc-300 max-w-4xl mx-auto mb-6">
-            Kenya&apos;s hottest adult dating platform for instant connections, luxury matches, video calls and unforgettable weekends.
-          </p>
-
-          {/* STATS */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto mb-12">
-            <StatCard icon={<Users />} value="25,000+" label="Active Members" />
-            <StatCard icon={<Shield />} value="100%" label="Private" />
-            <StatCard icon={<Sparkles />} value="300+" label="New Daily" />
-            <StatCard icon={<Heart />} value="4.9/5" label="Rating" />
-          </div>
+ 
 
           {/* CATEGORIES */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
